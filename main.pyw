@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv(".env")
 
-bookmark_path = os.getenv("BROWSER_PATH")
+bookmark_path = os.getenv("BOOKMARK_PATH")
 
 def main():
     with open(bookmark_path, 'r') as bookmark:
